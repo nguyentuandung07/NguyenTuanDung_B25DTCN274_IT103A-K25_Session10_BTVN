@@ -1,0 +1,35 @@
+@media screen and (max-width: 480px) {
+  body {
+    background-color: blue;
+  }
+  .heading-1 {
+    color: aqua;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: yellow;
+  }
+  .heading-1 {
+    color: brown;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  body {
+    background-color: aqua;
+  }
+  .heading-1 {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    background-color: gray;
+  }
+  .heading-1 {
+    color: white;
+  }
+}

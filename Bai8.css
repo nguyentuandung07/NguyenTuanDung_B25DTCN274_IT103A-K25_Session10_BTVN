@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.header {
+  width: 100%;
+  height: 105px;
+  background-color: #1e1e1e;
+  box-shadow: 0px 2px 10px 0px #00000033;
+  position: fixed;
+}
+.container {
+  margin: 25px 120px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: #d4af37;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 54.4px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.nav {
+  display: flex;
+  gap: 30px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #ccc;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 27.2px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.section1 {
+  height: 450px;
+  display: flex;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./Images/Bai8-1.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main .hs1 {
+  margin-top: 93.11px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 56px;
+  line-height: 95.2px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0px 2px 10px 0px #00000080;
+  color: #ffffff;
+}
+.main .ds1 {
+  width: 654px;
+  height: 62px;
+  opacity: 0.9;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+}
+.main .btn {
+  width: 229.5px;
+  height: 60.5px;
+  border-radius: 50px;
+  background-color: #d4af37;
+  box-shadow: 0px 5px 15px 0px #d4af3766;
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  line-height: 30.6px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  margin-top: 43px;
+  padding-top: 17px;
+  text-decoration: none;
+}
+.section2 {
+  width: 100%;
+  height: 751.5px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+}
+.section2 h2 {
+  margin-top: 128px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 81.6px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #1e1e1e;
+}
+.card-list {
+  margin: 80px 70px 120px;
+  /* border: 1px solid #dddddd; */
+  width: 1300px;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 300.25px;
+  height: 350px;
+  border-radius: 20px;
+  background-color: #d4af37;
+  box-shadow: 0px 10px 30px 0px #0000001a;
+}
+.section3 {
+  text-align: center;
+  width: 100%;
+  height: 453.3800048828125px;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.section3 .hs3 {
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 81.6px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #d4af37;
+  margin-top: 128px;
+}
+.section3 .ds3 {
+  width: 899.1400146484375px;
+  height: 86.19000244140625px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 30.6px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #dddddd;
+}
+.footer {
+  width: 100%;
+  height: 85.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+}
+.footer p {
+  width: 404.01727294921875px;
+  height: 21px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 15px;
+  line-height: 25.5px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #888888;
+}
